@@ -28,7 +28,6 @@ CKEDITOR.editorConfig = function( config ) {
 						'padding': '10px',
 						'text-align': 'center',
 						'color': '#BFBFBF',
-						'margin-bottom': '30px',
         }
 	};
 
