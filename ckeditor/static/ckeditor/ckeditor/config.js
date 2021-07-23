@@ -30,4 +30,6 @@ CKEDITOR.editorConfig = function( config ) {
             'color': '#BFBFBF',
         }
     };
+	
+		config.enterMode = CKEDITOR.ENTER_BR;
 };
