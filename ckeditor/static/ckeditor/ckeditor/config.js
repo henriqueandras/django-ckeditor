@@ -9,27 +9,28 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.uiColor = '#AADC6E';
 	
 	// Enable a limited set of text formats:
-    config.format_tags = 'p;title;caption';
-    config.format_title = {
+	config.format_tags = 'p;title;caption';
+	config.format_title = {
         name: 'Title',
         element: 'h2',
         styles: {
             'font-weight': '700',
-            'margin-top': '60px',
-            'margin-bottom': '30px',
+   					'margin-top': '60px',
+    				'margin-bottom': '30px',
         }
-    };
-    config.format_caption = {
+	};
+	config.format_caption = {
         name: 'Image Caption',
-        element: 'p',
+        element: 'figcaption',
         styles: {
             'font-size': '14px',
-            'font-style': 'italic',
-            'padding': '10px',
-            'text-align': 'center',
-            'color': '#BFBFBF',
+						'font-style': 'italic',
+						'padding': '10px',
+						'text-align': 'center',
+						'color': '#BFBFBF',
+						'margin-bottom': '30px',
         }
-    };
-	
-		config.enterMode = CKEDITOR.ENTER_BR;
+	};
+
+	config.enterMode = CKEDITOR.ENTER_BR;
 };
