@@ -9,7 +9,7 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.uiColor = '#AADC6E';
 	
 	// Enable a limited set of text formats:
-	config.format_tags = 'p;title;caption;';
+	config.format_tags = 'p;title;caption';
 	config.format_p = {
 		element:"p", 
 		name: "Normal", 
@@ -25,7 +25,7 @@ CKEDITOR.editorConfig = function( config ) {
 			'text-align': 'left',
 			'font-style': 'normal',
 			'margin-top': '60px',
-   		'margin-bottom': '30px',
+   			'margin-bottom': '30px',
         }
     };
 	config.format_caption = {
